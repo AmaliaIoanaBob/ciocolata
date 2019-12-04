@@ -15,7 +15,10 @@ public class AbstractController<ID_TYPE,
 
          protected SERVICE service;
 
-        public AbstractController(SERVICE service) {
+    public AbstractController() {
+    }
+
+    public AbstractController(SERVICE service) {
             this.service = service;
         }
 

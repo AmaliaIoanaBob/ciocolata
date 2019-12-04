@@ -13,7 +13,10 @@ public class AbstractService
 
         protected REPOSITORY repository;
 
-        public AbstractService(REPOSITORY repository) {
+    public AbstractService() {
+    }
+
+    public AbstractService(REPOSITORY repository) {
             this.repository = repository;
         }
 

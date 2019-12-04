@@ -62,7 +62,7 @@ public class SimpleChocolateController {
 
     @RequestMapping(value ="/delete/{id}")
     public String ChocolateService(@PathVariable Long id) {
-        chocolateService.delete(id);
+          chocolateService.delete(id);
         return "redirect:/chocolate/getAll";
     }
     @PostMapping("/update/{id}")
